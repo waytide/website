@@ -1,0 +1,1 @@
+# The first content area is a description of an agent that is an ally — establishing "ally" as a configuration of an agent that predisposes it to work with the human along the human's goal vector and process rather than displacing it, with unattended work explicitly opt-in and requiring affirmation before the agent proceeds unattended

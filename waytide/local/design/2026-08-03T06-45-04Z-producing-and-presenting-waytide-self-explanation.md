@@ -526,7 +526,9 @@ the composite's design, before this one was divided from it.
 - **What fills the near-term site.** Its shape is settled — Hextra's demonstration site — and its
   content is not. What the documentation says, whether there is a blog, what a showcase would
   show, and which of them the projection feeds are all open. This is the nearest-term question the
-  design leaves, and the one a plan would hit first.
+  design leaves, and the one a plan would hit first. **The content areas the site carries are
+  accumulating** in *The Site's Content Areas — Design*, which begins to answer this without
+  closing it: it says what the site covers, not how the coverage is produced or arranged.
 - **How the near-term site becomes the home page**, given they are different kinds of page rather
   than two finishes of one. Whether the home page arrives as another page on the near-term site,
   replaces its landing page, or waits for a rebuild is not settled.
@@ -574,3 +576,4 @@ Changed by Scott Bellware on Mon Aug 3 2026 at 12:22:39 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:37:27 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:36:57 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:45:59 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 1:50:20 PM PT
