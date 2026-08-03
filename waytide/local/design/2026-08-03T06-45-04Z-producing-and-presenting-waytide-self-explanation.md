@@ -483,6 +483,13 @@ the composite's design, before this one was divided from it.
 - **2026-08-03** — The opening sequence is **git install → `load waytide` → starting a
   feature**. A status report was considered for the sequence and **dropped**: at initiation
   there is nothing to report, and a form with no content demonstrates only the form.
+- **2026-08-03** — **The site is hosted on GitHub Pages**, built by a workflow in this repository
+  on a push to `master`. A `CNAME` in `static/` carries `waytide.ai` into the build output, and
+  Pages is configured with GitHub Actions as its build source. Netlify was the other candidate —
+  the theme ships a configuration for it — and was not taken. **The domain does not yet resolve
+  to it**: `waytide.ai` is on registrar parking, and the DNS records are an outstanding
+  dependency recorded in the feature record rather than here, being an action rather than a
+  design question.
 - **2026-08-03** — **The site is published at `waytide.ai`**, a domain the project owns. It is
   the site's address in `hugo.yaml`, replacing the GitHub Pages address that stood there
   provisionally. Where the domain points — what hosts the built site — is a separate question and
@@ -537,11 +544,10 @@ the composite's design, before this one was divided from it.
 - **Whether anything written has to be installed with a project.** A projection produced for the
   website has no distribution constraint; one the chat draws on inside a consuming project does,
   since subtree carries only package directories.
-- **Where the site is hosted, and how it is deployed.** The address is settled — `waytide.ai` —
-  and what the domain points at is not. GitHub Pages, which the repository's home and Hextra's
-  starter template both suggest, and Netlify, which the theme ships a configuration for, are the
-  obvious candidates, and neither is chosen. The choice decides what else the repository carries:
-  a `CNAME` file for Pages, a build workflow, or a host's own configuration.
+- **Whether the deployment stays one-way.** GitHub Pages is settled as the host, and the build
+  runs from a workflow in this repository, so nothing about the site's production reaches back
+  into the records it derives from. Keeping it that way is a constraint on whatever produces the
+  projection later, not a question about the host.
 - **What fills the near-term site.** Its shape is settled — Hextra's demonstration site — and its
   content is not. What the documentation says, whether there is a blog, what a showcase would
   show, and which of them the projection feeds are all open. This is the nearest-term question the
@@ -598,3 +604,4 @@ Changed by Scott Bellware on Mon Aug 3 2026 at 1:45:59 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:50:20 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:52:59 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:57:24 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 2:01:00 PM PT

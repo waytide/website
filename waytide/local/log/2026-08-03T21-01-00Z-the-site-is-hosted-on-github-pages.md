@@ -1,0 +1,1 @@
+# The site is hosted on GitHub Pages, built by a workflow in this repository on a push to master, with a CNAME carrying waytide.ai into the build output; Netlify was the other candidate and was not taken
