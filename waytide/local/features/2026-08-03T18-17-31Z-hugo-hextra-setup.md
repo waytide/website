@@ -83,6 +83,11 @@ exactly as they had locally.
   presents GitHub's own `*.github.io` wildcard, so `https://waytide.ai` fails rather than warns.
   DNS first resolved minutes before the merge, and provisioning takes from a few minutes to about
   an hour. This is a wait, not a defect, and nothing in the repository changes when it clears.
+
+  **Cleared the same day.** A Let's Encrypt certificate for `waytide.ai` and `www.waytide.ai` was
+  issued at 20:26:52 UTC, about seven minutes after DNS first resolved, and **GitHub enabled
+  enforcement itself** — no action was taken here. Plain HTTP now answers `301` to the HTTPS
+  address and `www` redirects to the apex. The wait was the whole of it, as recorded.
 - **The site is nearly bare.** A hero and one placeholder documentation page. That is by design:
   what fills the site is content, and the content areas are accumulating in their own design.
 
@@ -125,3 +130,4 @@ Changed by Scott Bellware on Mon Aug 3 2026 at 2:01:00 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:16:43 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:19:41 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:21:34 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 2:27:40 PM PT

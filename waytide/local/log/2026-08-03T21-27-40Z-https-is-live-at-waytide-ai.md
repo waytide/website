@@ -1,0 +1,1 @@
+# HTTPS is live at waytide.ai — a Let's Encrypt certificate covering the apex and www was issued about seven minutes after DNS resolved, and GitHub enabled enforcement itself, so plain HTTP now redirects to HTTPS
