@@ -38,6 +38,20 @@ and it is open in the design.
   just answered. **Both the local and the remote branch were deleted**, read as the ordinary
   meaning of the instruction after a merge; the branch was fully merged into `master`, so every
   commit remains reachable and nothing was made unrecoverable.
+
+  **The remote branch was deleted under its pre-rename name, `feature/hugo-hextra`.** The rename
+  moved the local branch and both records but was **never pushed**, so the remote kept the
+  original name at commit `112ade8` while the local branch went on to `37e5fc0`. Two failures
+  followed from it and are worth recording rather than tidying away: deleting
+  `feature/hugo-hextra-setup` on the remote failed because no such ref existed there, and
+  deleting the local branch was refused because git compared it against its stale upstream —
+  `origin/feature/hugo-hextra` — and found it not merged *there*, even while reporting it merged
+  to `HEAD`.
+
+  **The local delete was then forced**, with `-D` rather than `-d`. That was done only after
+  confirming containment directly: `git merge-base --is-ancestor` established that the remote
+  tip was an ancestor of `master`, and the local tip `37e5fc0` likewise. The force overrode a
+  check made stale by the unpushed rename, not the check's substance.
 - **2026-08-03 — Renamed to `hugo-hextra-setup`**, at the developer's instruction, immediately
   before the merge. The branch, this record, and the loop record all moved with it. The name at
   initiation was `hugo-hextra`; the addition of *setup* narrows what the feature claims to have
@@ -110,3 +124,4 @@ Authored by Scott Bellware on Mon Aug 3 2026 at 11:17:31 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:01:00 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:16:43 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:19:41 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 2:21:34 PM PT
