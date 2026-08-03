@@ -385,11 +385,10 @@ and the reason it is worth making, not copy.
   whose interest it serves, which the tagline does not, and a page wants both.
 
   **"The harness that makes the agent an ally"** is the expanded form, kept alongside it.
-  **Corrected 2026-08-03** from *"Use the harness that makes an agent an ally."* Two changes,
-  both narrowing: dropping *use* makes it a **description rather than an instruction**, so it
-  names the thing instead of telling the reader to adopt it; and *the agent* rather than *an
-  agent* points at the agent the reader is actually working with rather than at agents in
-  general.
+  **Narrowed 2026-08-03**, in two ways that are worth holding onto. It is a **description rather
+  than an instruction** — it names the thing rather than telling the reader to adopt it, which an
+  imperative opening would do. And it points at **the** agent, the one the reader is actually
+  working with, rather than at agents in general. The superseded wording is in the log.
   Where the compressed one names what Waytide *is*, the expanded one names what it is **for** —
   mechanism, object, and purpose in that order — and it is the form to reach for where a reader
   has not yet been given the compressed one to unpack.
@@ -577,3 +576,4 @@ Changed by Scott Bellware on Mon Aug 3 2026 at 12:37:27 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:36:57 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:45:59 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:50:20 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 1:52:59 PM PT
