@@ -1,0 +1,1 @@
+# The near-term site reflects Hextra's own demonstration site at imfing.github.io/hextra, settling the site's shape and presentation but not what fills it; it is a documentation site rather than a smaller version of the home page

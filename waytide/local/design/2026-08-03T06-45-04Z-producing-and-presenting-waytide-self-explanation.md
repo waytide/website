@@ -109,6 +109,29 @@ A source consulted only by the website has no such constraint, but a source serv
 govern the work done here — producing the projection. They do not reach an agent running in a
 developer's own project, which is where the chat surface runs. See Out of Scope / Deferred.
 
+## The near-term site
+
+**The site reflects Hextra's own demonstration site**, at `https://imfing.github.io/hextra/`.
+That is what the website is until the home page described below is reached.
+
+**The shape that site presents**, as of 2026-08-03: a hero carrying a headline, a tagline, and a
+single call to action; a row of feature cards beneath it; and top navigation dividing the site
+into documentation, a blog, and a showcase. Full-text search, a light and dark theme toggle, and
+multi-language support are part of what the theme supplies rather than things to be built.
+
+**It is the theme's own demonstration, which means the theme is used substantially as it comes.**
+That is what makes it reachable soon: the work is filling a shape rather than making one.
+
+**What it settles and what it leaves open.** It settles the site's **shape and presentation**. It
+does not settle **what fills it** — what the documentation says, whether there is a blog, what a
+showcase would show. That content comes from the projection, like every other surface.
+
+**It differs in kind from the home page below, and the two are not versions of one thing.** A
+demonstration site's shape is a documentation site: sections, navigation, search — a reader
+chooses where to go. The home page is a single rendered session on one continuous scroll, where
+the reader goes one way and the length is part of the argument. Reaching the second is not a
+restyling of the first, and a plan should not treat it as one.
+
 ## The home page
 
 **Everything in this section is a long-horizon aspiration, not the near-term build.** The page
@@ -265,8 +288,9 @@ one scroll, a per-entry expandable summary on the right, and a page long enough 
 is part of what it demonstrates. Those are the parts most likely to strain the theme.
 
 **That strain is deferred with the page itself.** The home page is a long-horizon aspiration
-rather than the near-term build, so it is not what Hextra has to carry first and it is not a
-reason to weigh the stack differently now. It is recorded so that the question is already on the
+rather than the near-term build, and the near-term site reflects **Hextra's own demonstration
+site** — the theme carrying exactly what it was built to carry. So the demands above are not what
+Hextra has to answer first, and they are not a reason to weigh the stack differently now. It is recorded so that the question is already on the
 page when the aspiration is taken up — at which point the theme either carries it, is extended,
 or is the thing that has to change.
 
@@ -411,6 +435,11 @@ the composite's design, before this one was divided from it.
 - **2026-08-03** — The opening sequence is **git install → `load waytide` → starting a
   feature**. A status report was considered for the sequence and **dropped**: at initiation
   there is nothing to report, and a form with no content demonstrates only the form.
+- **2026-08-03** — **The near-term site reflects Hextra's own demonstration site**, at
+  `https://imfing.github.io/hextra/` — a hero with a headline, tagline, and one call to action;
+  feature cards; and navigation dividing documentation, a blog, and a showcase, with search and a
+  dark theme supplied by the theme. It settles the site's shape and presentation, not what fills
+  it, and it is a documentation site rather than a smaller version of the home page below.
 - **2026-08-03** — **The home page described here is a long-horizon aspiration**, settled as
   direction rather than as the next thing built. Every home-page resolution below is read that
   way: the shape is not tentative, but when it is reached is deferred. What the site is in the
@@ -452,10 +481,13 @@ the composite's design, before this one was divided from it.
 - **Whether anything written has to be installed with a project.** A projection produced for the
   website has no distribution constraint; one the chat draws on inside a consuming project does,
   since subtree carries only package directories.
-- **What the site is before the home page is reached.** The home page is a long-horizon
-  aspiration, and nothing settles what stands in its place until then — whether a plain
-  introduction, a short excerpt of the synthesized session, or something else entirely. This is
-  the nearest-term question the design leaves open, and the one a plan would hit first.
+- **What fills the near-term site.** Its shape is settled — Hextra's demonstration site — and its
+  content is not. What the documentation says, whether there is a blog, what a showcase would
+  show, and which of them the projection feeds are all open. This is the nearest-term question the
+  design leaves, and the one a plan would hit first.
+- **How the near-term site becomes the home page**, given they are different kinds of page rather
+  than two finishes of one. Whether the home page arrives as another page on the near-term site,
+  replaces its landing page, or waits for a rebuild is not settled.
 - **What feeds the generator.** Hugo and Hextra settle what builds the site; what produces their
   input does not follow from that. Whether the projection is generated at publish time from the
   packages, assembled from the component repositories, or produced some other way is open. The
@@ -496,3 +528,4 @@ the composite's design, before this one was divided from it.
 Authored by Scott Bellware on Sun Aug 2 2026 at 11:45:04 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:16:25 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:19:26 AM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 12:22:39 AM PT
