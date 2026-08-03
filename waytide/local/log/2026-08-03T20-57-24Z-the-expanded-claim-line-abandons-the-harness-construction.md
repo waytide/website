@@ -1,0 +1,1 @@
+# The expanded claim line is "Your agent, your ally. The agent proposes, you decide." — the harness construction is abandoned rather than repaired, because any verb claiming the harness produced an ally promises a result the reader cannot check; the possessives assert the relation and the mechanism supplies its grounds

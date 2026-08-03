@@ -384,14 +384,28 @@ and the reason it is worth making, not copy.
   **superseded as the tagline on 2026-08-03**. It is kept: it states what the system does and
   whose interest it serves, which the tagline does not, and a page wants both.
 
-  **"The harness that makes the agent an ally"** is the expanded form, kept alongside it.
-  **Narrowed 2026-08-03**, in two ways that are worth holding onto. It is a **description rather
-  than an instruction** — it names the thing rather than telling the reader to adopt it, which an
-  imperative opening would do. And it points at **the** agent, the one the reader is actually
-  working with, rather than at agents in general. The superseded wording is in the log.
-  Where the compressed one names what Waytide *is*, the expanded one names what it is **for** —
-  mechanism, object, and purpose in that order — and it is the form to reach for where a reader
-  has not yet been given the compressed one to unpack.
+  **"Your agent, your ally. The agent proposes, you decide."** is the expanded form, settled
+  2026-08-03 and carried on the landing page beneath the tagline.
+
+  **It abandons the harness construction rather than repairing it.** Every earlier form turned on
+  a verb claiming the harness *produced* an ally, and the objection that retired them was that
+  such a verb is **presumptuous**: it promises a result the reader cannot check, and implies a
+  transformation — the agent was not an ally, and now is, because of this. Weakening the verb
+  would have softened the claim without removing its shape.
+
+  **What replaces it is claim then grounds.** The possessives assert the relation without
+  claiming anything produced it, and the second sentence immediately says what the relation
+  consists of, so *ally* arrives with its evidence attached rather than asking to be taken on
+  assurance. That is what the content-areas design requires of the word — that it be shown as
+  something inspectable rather than asserted as a disposition.
+
+  **The mechanism half is settled vocabulary**, not new: *the agent proposes; the developer
+  decides* is the first of the five phrasings below and echoes the method's spine. The landing
+  page says *you* rather than *the developer* because it addresses a reader directly.
+
+  **It states the attended default**, which is what a first reader meets. Under unattended work —
+  opt-in, and affirmed before the agent proceeds — the agent decides each hinge, so the line
+  describes the cadence a reader begins in rather than the only one available.
 
   **A known risk in the compressed form, recorded rather than acted on.** English noun-stacks
   bind rightward, so *human ally harness* is available to a first-time reader as *a harness for
@@ -577,3 +591,4 @@ Changed by Scott Bellware on Mon Aug 3 2026 at 1:36:57 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:45:59 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:50:20 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:52:59 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 1:57:24 PM PT
