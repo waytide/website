@@ -1,0 +1,1 @@
+# The session record "The website leaves home and goes live" is written, narrating the migration out of the composite, the Hugo and Hextra feature, and the correction of a log entry that misdescribed a data loss that never occurred
