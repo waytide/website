@@ -1,0 +1,1 @@
+# The "lost in the move" entry is corrected: git shows the Human-Agent Relations material was never in the composite's design at any commit, so the copy was faithful and the reduction deleted nothing — the material was logged at 06:40Z and never written into the design, which had fallen behind its own log

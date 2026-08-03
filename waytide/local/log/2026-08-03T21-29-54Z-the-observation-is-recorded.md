@@ -1,0 +1,1 @@
+# A design falling behind its own decision log is recorded as an observation rather than a rule, because the gap can be described but not yet detected, and a rule naming a gap without a check is ceremony
