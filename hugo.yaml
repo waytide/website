@@ -1,3 +1,38 @@
-baseURL: https://example.org/
+# Provisional until the site's home is decided — see the design's deferred questions.
+baseURL: https://waytide.github.io/website/
+title: Waytide
+
+theme: hextra
+
 languageCode: en-us
-title: My New Hugo Site
+enableRobotsTXT: true
+enableGitInfo: true
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: Search
+      weight: 8
+      params:
+        type: search
+    - name: GitHub
+      weight: 9
+      url: https://github.com/waytide
+      params:
+        icon: github
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  footer:
+    displayPoweredBy: true
