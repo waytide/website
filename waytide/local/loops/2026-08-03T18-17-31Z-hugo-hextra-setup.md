@@ -1,9 +1,9 @@
-# Loop record — Hugo and Hextra
+# Loop record — Hugo and Hextra Setup
 
 Standing up static site generation for the Waytide website: installing Hugo, bringing in the
 Hextra theme, and configuring the site so it builds. The feature's lifecycle — its branch, base,
 working location, and the confirmations at initiation — is in
-`waytide/local/features/2026-08-03T18-17-31Z-hugo-hextra.md`.
+`waytide/local/features/2026-08-03T18-17-31Z-hugo-hextra-setup.md`.
 
 **Mode: attended.** Chosen at initiation beside the working location.
 
@@ -131,3 +131,4 @@ records are recorded in the feature record as an outstanding dependency.
 
 Authored by Scott Bellware on Mon Aug 3 2026 at 11:17:31 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:01:00 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 2:16:43 PM PT

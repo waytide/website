@@ -1,4 +1,4 @@
-# Feature — Hugo and Hextra
+# Feature — Hugo and Hextra Setup
 
 ## Intent
 
@@ -13,12 +13,12 @@ and it is open in the design.
 
 - **State:** In flight
 - **Upstream branch:** `master`
-- **Feature branch:** `feature/hugo-hextra`
+- **Feature branch:** `feature/hugo-hextra-setup`
 - **Base:** `51937058e4c2f89767f0f6a6951cefc4a52ecee0` — `master`, *The near-term site reflects
   Hextra's demonstration site*
 - **Working location:** branch only, chosen at initiation 2026-08-03. This working tree switches
-  to `feature/hugo-hextra` and switches back to `master` at the conclusion.
-- **Loop record:** `waytide/local/loops/2026-08-03T18-17-31Z-hugo-hextra.md`
+  to `feature/hugo-hextra-setup` and switches back to `master` at the conclusion.
+- **Loop record:** `waytide/local/loops/2026-08-03T18-17-31Z-hugo-hextra-setup.md`
 - **Source design:** *Producing and Presenting Waytide's Self-Explanation — Design*,
   `waytide/local/design/2026-08-03T06-45-04Z-producing-and-presenting-waytide-self-explanation.md`
 
@@ -31,6 +31,11 @@ and it is open in the design.
   capability rather than the tools; the developer's names the tools.
 - **2026-08-03 — Gating cadence: attended.** Put through the selection UI at initiation beside
   the working location. The loop stops at every hinge.
+- **2026-08-03 — Renamed to `hugo-hextra-setup`**, at the developer's instruction, immediately
+  before the merge. The branch, this record, and the loop record all moved with it. The name at
+  initiation was `hugo-hextra`; the addition of *setup* narrows what the feature claims to have
+  done — standing the tooling up, rather than Hugo and Hextra as a subject — which is what the
+  intent above already says.
 
 ## Notes
 
@@ -66,3 +71,4 @@ concluding the feature does not read as the site being live.
 
 Authored by Scott Bellware on Mon Aug 3 2026 at 11:17:31 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:01:00 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 2:16:43 PM PT
