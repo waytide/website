@@ -410,9 +410,15 @@ and the reason it is worth making, not copy.
   **A known risk in the compressed form, recorded rather than acted on.** English noun-stacks
   bind rightward, so *human ally harness* is available to a first-time reader as *a harness for
   human allies* — the compliance reading that "ally" was introduced to foreclose. The intended
-  reading, *the harness that makes the agent an ally*, is the better claim and arrives on the
-  second pass. The compression was chosen deliberately with this understood; the expanded form
-  exists to carry the intended reading wherever the compressed one would be met cold.
+  reading — a harness under which the agent stands as the human's ally — is the better claim and
+  arrives on the second pass. The compression was chosen deliberately with this understood; the
+  expanded form exists to carry the intended reading wherever the compressed one would be met
+  cold.
+
+  **This gloss is not a candidate wording.** It describes how the compressed form parses. Every
+  phrasing that made the harness the *actor* — that it produced, kept, or let the agent be an
+  ally — was retired on 2026-08-03 as presumptuous, and the gloss is worded to avoid reinstating
+  one by the back door.
 
   **Waytide is an agent harness and a human ally** remains the definitional sentence, and what
   each half is for is settled below.
