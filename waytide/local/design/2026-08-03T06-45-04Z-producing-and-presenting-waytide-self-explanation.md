@@ -111,6 +111,21 @@ developer's own project, which is where the chat surface runs. See Out of Scope 
 
 ## The home page
 
+**Everything in this section is a long-horizon aspiration, not the near-term build.** The page
+described below — the two vertical sides, the expandable summaries, the scroll that goes on and
+on — is where the home page is meant to arrive, and it is settled as **direction** rather than as
+the next thing built. It is stated here at the top because every resolution in this section reads
+as a commitment otherwise, and a plan drawn from it would sequence work nobody intends to start
+yet.
+
+**What the site is in the meantime is not settled anywhere**, and that gap is named in Out of
+Scope / Deferred. Recording the aspiration without recording that it is one would leave the
+design describing a site that is not being built, which is the drift failure arriving from the
+inside.
+
+**The distinction is horizon, not confidence.** Nothing below is tentative — the shape was
+reasoned through and settled. What is deferred is when it is reached.
+
 **The website is not itself an interactive chat.** The chat on the page is a **content and
 style element** — a rendered scroll of a **synthesized session**, not something the reader
 converses with. The interactive chat is the other surface: the agent, in a developer's own
@@ -244,11 +259,16 @@ answer what **feeds** the build: the projection has to reach Hugo in some form, 
 produce it is open. The one-way flow requirement is untouched — whatever assembles the input,
 nothing flows back from the site into the records it was derived from.
 
-**Where the choice would first show a cost.** The home page's demands are unusual for a theme
-built around documentation pages: two vertical panes tracking one scroll, a per-entry expandable
-summary on the right, and a page long enough that its length is part of what it demonstrates.
-Those are the parts most likely to strain the theme, and the place to look first if the stack
-turns out to fight the page rather than carry it.
+**Where the choice would eventually show a cost — but not soon.** The home page as designed
+makes demands unusual for a theme built around documentation pages: two vertical panes tracking
+one scroll, a per-entry expandable summary on the right, and a page long enough that its length
+is part of what it demonstrates. Those are the parts most likely to strain the theme.
+
+**That strain is deferred with the page itself.** The home page is a long-horizon aspiration
+rather than the near-term build, so it is not what Hextra has to carry first and it is not a
+reason to weigh the stack differently now. It is recorded so that the question is already on the
+page when the aspiration is taken up — at which point the theme either carries it, is extended,
+or is the thing that has to change.
 
 ## Points the website should make
 
@@ -391,6 +411,10 @@ the composite's design, before this one was divided from it.
 - **2026-08-03** — The opening sequence is **git install → `load waytide` → starting a
   feature**. A status report was considered for the sequence and **dropped**: at initiation
   there is nothing to report, and a form with no content demonstrates only the form.
+- **2026-08-03** — **The home page described here is a long-horizon aspiration**, settled as
+  direction rather than as the next thing built. Every home-page resolution below is read that
+  way: the shape is not tentative, but when it is reached is deferred. What the site is in the
+  meantime is not settled.
 - **2026-08-03** — **The site is generated with Hugo and the Hextra theme.** This project is the
   occasion to exercise static site generation with that stack, which is part of the reason for the
   choice rather than only its technical fit. It settles what builds the site, not what feeds it.
@@ -428,6 +452,10 @@ the composite's design, before this one was divided from it.
 - **Whether anything written has to be installed with a project.** A projection produced for the
   website has no distribution constraint; one the chat draws on inside a consuming project does,
   since subtree carries only package directories.
+- **What the site is before the home page is reached.** The home page is a long-horizon
+  aspiration, and nothing settles what stands in its place until then — whether a plain
+  introduction, a short excerpt of the synthesized session, or something else entirely. This is
+  the nearest-term question the design leaves open, and the one a plan would hit first.
 - **What feeds the generator.** Hugo and Hextra settle what builds the site; what produces their
   input does not follow from that. Whether the projection is generated at publish time from the
   packages, assembled from the component repositories, or produced some other way is open. The
@@ -467,3 +495,4 @@ the composite's design, before this one was divided from it.
 
 Authored by Scott Bellware on Sun Aug 2 2026 at 11:45:04 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:16:25 AM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 12:19:26 AM PT
