@@ -11,7 +11,7 @@ and it is open in the design.
 
 ## Setup
 
-- **State:** In flight
+- **State:** Completed
 - **Upstream branch:** `master`
 - **Feature branch:** `feature/hugo-hextra-setup`
 - **Base:** `51937058e4c2f89767f0f6a6951cefc4a52ecee0` — `master`, *The near-term site reflects
@@ -31,6 +31,13 @@ and it is open in the design.
   capability rather than the tools; the developer's names the tools.
 - **2026-08-03 — Gating cadence: attended.** Put through the selection UI at initiation beside
   the working location. The loop stops at every hinge.
+- **2026-08-03 — Completed, and the branch deleted.** The developer instructed both directly:
+  *"mark the feature completed and delete the branch."* The lifecycle requires explicit
+  confirmation before a branch is deleted, local or remote, and the instruction is that
+  confirmation — it is recorded here rather than put back to the developer as a question they had
+  just answered. **Both the local and the remote branch were deleted**, read as the ordinary
+  meaning of the instruction after a merge; the branch was fully merged into `master`, so every
+  commit remains reachable and nothing was made unrecoverable.
 - **2026-08-03 — Renamed to `hugo-hextra-setup`**, at the developer's instruction, immediately
   before the merge. The branch, this record, and the loop record all moved with it. The name at
   initiation was `hugo-hextra`; the addition of *setup* narrows what the feature claims to have
@@ -45,7 +52,30 @@ Go as well. So the feature involves a change outside this repository, and the in
 hinge decides whether one tool or two are installed. **Resolved:** Hugo v0.153.3+extended was
 installed with Homebrew; Go was not needed, the theme having come in by subtree.
 
-## Outstanding dependency — DNS
+## Conclusion
+
+**Completed 2026-08-03.** Integrated into `master` as a **fast-forward** — `master` was a strict
+ancestor, so the seventeen commits read in sequence with no merge commit. The build was verified
+before the merge and again on `master`: 11 pages, no warnings.
+
+**The first deployment ran and succeeded**, both jobs, and **the site is live at
+`http://waytide.ai`** — serving the tagline, the claim line, the navigation, and `/docs/`. The
+workflow, the action versions, the pinned Hugo, and the subtree-vendored theme all held up in CI
+exactly as they had locally.
+
+**What is not finished, and is deliberately not held against completion:**
+
+- **HTTPS is not enforced.** GitHub has issued no certificate for the domain yet — the site
+  presents GitHub's own `*.github.io` wildcard, so `https://waytide.ai` fails rather than warns.
+  DNS first resolved minutes before the merge, and provisioning takes from a few minutes to about
+  an hour. This is a wait, not a defect, and nothing in the repository changes when it clears.
+- **The site is nearly bare.** A hero and one placeholder documentation page. That is by design:
+  what fills the site is content, and the content areas are accumulating in their own design.
+
+**A feature completes when its intent is built and integrated**, and the intent was standing the
+tooling up. Both remaining items are downstream of that rather than part of it.
+
+## Outstanding dependency — DNS — resolved
 
 **`waytide.ai` does not resolve to GitHub Pages, and this feature cannot make it.** The domain is
 on registrar parking — an `A` record to `192.64.119.231`, and `www` to
@@ -64,11 +94,19 @@ certificate only then, and the Pages API currently reports `https_enforced: fals
 as `http://waytide.ai/`. And **a deploy will succeed while the site stays unreachable at its own
 address**, which is the state to expect between the merge and the DNS change.
 
-**This is outside the repository and outside the agent's reach.** It is recorded here so that
-concluding the feature does not read as the site being live.
+**This is outside the repository and outside the agent's reach.** It was recorded here so that
+concluding the feature would not read as the site being live.
+
+**Resolved 2026-08-03, by the developer, before the merge.** The apex now answers with all four
+GitHub addresses and all four IPv6 addresses, `www` is a CNAME to `waytide.github.io`, and the
+five `MX` records and the SPF `TXT` survived intact — which was the hazard worth naming, since
+losing them stops mail silently. The order turned out to be DNS first and the merge second, the
+reverse of what the paragraph above anticipated, so the site was reachable at its own address the
+moment the first deployment finished.
 
 ---
 
 Authored by Scott Bellware on Mon Aug 3 2026 at 11:17:31 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:01:00 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:16:43 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 2:19:41 PM PT
