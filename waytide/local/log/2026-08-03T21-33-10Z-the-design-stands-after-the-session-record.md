@@ -1,0 +1,1 @@
+# The design stands after the session record — the reconciliation prompt was put and the developer found nothing diverging, the session's resolutions having been written into the designs as they were settled
