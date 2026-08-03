@@ -1,0 +1,1 @@
+# The Human-Agent Relations material was lost in the website content move — it was added to the composite's design after the copy was taken and deleted with the section in the reduction — and is restored here from the composite's log entries

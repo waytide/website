@@ -5,7 +5,7 @@ layout: hextra-home
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  The Human Ally Harness
+  Human-Agent Relations
 {{< /hextra/hero-headline >}}
 </div>
 

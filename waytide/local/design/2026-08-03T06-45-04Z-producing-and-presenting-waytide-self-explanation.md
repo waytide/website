@@ -358,7 +358,31 @@ and the reason it is worth making, not copy.
   read as friction. Having five accurate phrasings means a passage can state it again without
   repeating itself, and each entry says what its phrasing is *for*.
 
-- **"Waytide: The Human Ally Harness"** — the chosen formulation, settled 2026-08-02.
+- **"Waytide: Human-Agent Relations"** — **the tagline, settled 2026-08-03.** It names the
+  **subject**: what the system governs is the relationship between a human and an agent — who is
+  bound, who decides, where the gates fall. It matches how the packages are named, since
+  `language`, `testing`, and `versioning` are subjects rather than claims.
+
+  **It alludes to C-3PO's self-introduction**, *"I am C-3PO, human-cyborg relations"*, and that
+  is the point of it for a technical reader. The allusion carries what the words alone would
+  lose: **C-3PO is a protocol droid who never decides.** He advises, calculates the odds, and
+  objects; Han does it anyway. That is the agent-proposes-the-human-decides stance, inside the
+  reference.
+
+  **It survives the naming standard where a metaphor would not.** `name-literally-not-by-analogy`
+  rejects names that require the reader to learn a mapping. This one requires none — *Human-Agent
+  Relations* describes the subject accurately to a reader who has never seen the film. The
+  allusion is a **second layer**: it rewards catching it and costs nothing to miss, which is what
+  distinguishes it from a metaphor, unintelligible until decoded. Recorded as an observation in
+  the composite repository.
+
+  **What it does not do is make a claim.** It says what Waytide is about, not what it does or
+  whose side it is on, and the asymmetry is there only for readers who catch the reference. That
+  is what the entry below is for.
+
+- **"Waytide: The Human Ally Harness"** — the **claim** line, settled 2026-08-02 and
+  **superseded as the tagline on 2026-08-03**. It is kept: it states what the system does and
+  whose interest it serves, which the tagline does not, and a page wants both.
 
   **"Use the harness that makes an agent an ally"** is the expanded form, kept alongside it.
   Where the compressed one names what Waytide *is*, the expanded one names what it is **for** —
@@ -456,6 +480,10 @@ the composite's design, before this one was divided from it.
   the website should make. The composite's design keeps the reasoning: why Waytide explains
   itself, what prompted it, and the vocabulary. The alternative weighed was moving the design
   whole and leaving a stub in the composite.
+- **2026-08-03** — **The tagline is "Waytide: Human-Agent Relations."** It names the subject
+  rather than making a claim, and alludes to C-3PO's self-introduction, which carries the
+  agent-proposes-the-human-decides stance inside the reference. *"Waytide: The Human Ally
+  Harness"* is superseded as the tagline and kept as the claim line.
 - **2026-08-03** — **The rules that query, normalize, and record explanation requests are this
   project's own local rules**, under `waytide/local/rules/` with the ISO-8601-UTC filename
   prefix. Whether they are later promoted into a distributed package is left open.
@@ -539,3 +567,4 @@ Changed by Scott Bellware on Mon Aug 3 2026 at 12:16:25 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:19:26 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:22:39 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:37:27 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 1:36:57 PM PT
