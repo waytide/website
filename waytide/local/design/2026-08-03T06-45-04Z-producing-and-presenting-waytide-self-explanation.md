@@ -229,6 +229,27 @@ value is that the process is exhibited rather than described. Whether the home-p
 on that project is not settled — though it is the same body of artifacts already named above as
 the transcript's source material, which makes the two questions nearly one.
 
+## Package Dependency
+
+**The site is generated with Hugo**, a static site generator, **and Hextra**, a Hugo theme.
+
+**The choice is an opportunity as much as a fit, and it is recorded that way rather than dressed
+up.** This project is being used as the occasion to exercise static site generation with Hugo and
+Hextra. Presenting the stack as the conclusion of a comparison nobody ran would misdescribe how it
+was arrived at, and a design that misdescribes its own reasoning is the kind of drift this design
+exists to prevent — arriving from the inside rather than from a public page.
+
+**What it settles, and what it does not.** It answers what **builds** the site. It does not
+answer what **feeds** the build: the projection has to reach Hugo in some form, and which records
+produce it is open. The one-way flow requirement is untouched — whatever assembles the input,
+nothing flows back from the site into the records it was derived from.
+
+**Where the choice would first show a cost.** The home page's demands are unusual for a theme
+built around documentation pages: two vertical panes tracking one scroll, a per-entry expandable
+summary on the right, and a page long enough that its length is part of what it demonstrates.
+Those are the parts most likely to strain the theme, and the place to look first if the stack
+turns out to fight the page rather than carry it.
+
 ## Points the website should make
 
 A running collection, added to as points surface. Each entry is a point worth making publicly
@@ -370,6 +391,9 @@ the composite's design, before this one was divided from it.
 - **2026-08-03** — The opening sequence is **git install → `load waytide` → starting a
   feature**. A status report was considered for the sequence and **dropped**: at initiation
   there is nothing to report, and a form with no content demonstrates only the form.
+- **2026-08-03** — **The site is generated with Hugo and the Hextra theme.** This project is the
+  occasion to exercise static site generation with that stack, which is part of the reason for the
+  choice rather than only its technical fit. It settles what builds the site, not what feeds it.
 - **2026-08-03** — **This design holds the operational half of Waytide's self-explanation** —
   the two surfaces, the projection, the distribution constraint, the home page, and the points
   the website should make. The composite's design keeps the reasoning: why Waytide explains
@@ -404,9 +428,10 @@ the composite's design, before this one was divided from it.
 - **Whether anything written has to be installed with a project.** A projection produced for the
   website has no distribution constraint; one the chat draws on inside a consuming project does,
   since subtree carries only package directories.
-- **How the website is produced** — generated at publish time from the packages, assembled by
-  the site from the component repositories, or otherwise. The flow must be one-way, as
-  composite → component already is.
+- **What feeds the generator.** Hugo and Hextra settle what builds the site; what produces their
+  input does not follow from that. Whether the projection is generated at publish time from the
+  packages, assembled from the component repositories, or produced some other way is open. The
+  flow must be one-way, as composite → component already is.
 - **Whether the removed website drafts return**, and in what form.
 - **Whether the transcript replays a `constant` feature or is a new session run for the
   purpose** — **deferred to planning**, not settled here. Replaying has the property that it
@@ -441,3 +466,4 @@ the composite's design, before this one was divided from it.
 ---
 
 Authored by Scott Bellware on Sun Aug 2 2026 at 11:45:04 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 12:16:25 AM PT
