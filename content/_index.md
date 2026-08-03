@@ -11,7 +11,7 @@ layout: hextra-home
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  Use the harness that makes an agent an ally.
+  The harness that makes the agent an ally.
 {{< /hextra/hero-subtitle >}}
 </div>
 

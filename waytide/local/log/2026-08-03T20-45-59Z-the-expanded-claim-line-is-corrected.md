@@ -1,0 +1,1 @@
+# The expanded claim line is "The harness that makes the agent an ally" — dropping "use" makes it a description rather than an instruction, and "the agent" points at the agent the reader is working with rather than at agents in general

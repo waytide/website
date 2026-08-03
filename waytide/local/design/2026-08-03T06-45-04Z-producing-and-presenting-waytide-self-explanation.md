@@ -384,7 +384,12 @@ and the reason it is worth making, not copy.
   **superseded as the tagline on 2026-08-03**. It is kept: it states what the system does and
   whose interest it serves, which the tagline does not, and a page wants both.
 
-  **"Use the harness that makes an agent an ally"** is the expanded form, kept alongside it.
+  **"The harness that makes the agent an ally"** is the expanded form, kept alongside it.
+  **Corrected 2026-08-03** from *"Use the harness that makes an agent an ally."* Two changes,
+  both narrowing: dropping *use* makes it a **description rather than an instruction**, so it
+  names the thing instead of telling the reader to adopt it; and *the agent* rather than *an
+  agent* points at the agent the reader is actually working with rather than at agents in
+  general.
   Where the compressed one names what Waytide *is*, the expanded one names what it is **for** —
   mechanism, object, and purpose in that order — and it is the form to reach for where a reader
   has not yet been given the compressed one to unpack.
@@ -392,7 +397,7 @@ and the reason it is worth making, not copy.
   **A known risk in the compressed form, recorded rather than acted on.** English noun-stacks
   bind rightward, so *human ally harness* is available to a first-time reader as *a harness for
   human allies* — the compliance reading that "ally" was introduced to foreclose. The intended
-  reading, *the harness that makes an agent an ally*, is the better claim and arrives on the
+  reading, *the harness that makes the agent an ally*, is the better claim and arrives on the
   second pass. The compression was chosen deliberately with this understood; the expanded form
   exists to carry the intended reading wherever the compressed one would be met cold.
 
@@ -568,3 +573,4 @@ Changed by Scott Bellware on Mon Aug 3 2026 at 12:19:26 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:22:39 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:37:27 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:36:57 PM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 1:45:59 PM PT
