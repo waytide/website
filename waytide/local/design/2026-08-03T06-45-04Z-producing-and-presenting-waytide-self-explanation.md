@@ -435,6 +435,10 @@ the composite's design, before this one was divided from it.
 - **2026-08-03** — The opening sequence is **git install → `load waytide` → starting a
   feature**. A status report was considered for the sequence and **dropped**: at initiation
   there is nothing to report, and a form with no content demonstrates only the form.
+- **2026-08-03** — **The site is published at `waytide.ai`**, a domain the project owns. It is
+  the site's address in `hugo.yaml`, replacing the GitHub Pages address that stood there
+  provisionally. Where the domain points — what hosts the built site — is a separate question and
+  is open.
 - **2026-08-03** — **The near-term site reflects Hextra's own demonstration site**, at
   `https://imfing.github.io/hextra/` — a hero with a headline, tagline, and one call to action;
   feature cards; and navigation dividing documentation, a blog, and a showcase, with search and a
@@ -481,6 +485,11 @@ the composite's design, before this one was divided from it.
 - **Whether anything written has to be installed with a project.** A projection produced for the
   website has no distribution constraint; one the chat draws on inside a consuming project does,
   since subtree carries only package directories.
+- **Where the site is hosted, and how it is deployed.** The address is settled — `waytide.ai` —
+  and what the domain points at is not. GitHub Pages, which the repository's home and Hextra's
+  starter template both suggest, and Netlify, which the theme ships a configuration for, are the
+  obvious candidates, and neither is chosen. The choice decides what else the repository carries:
+  a `CNAME` file for Pages, a build workflow, or a host's own configuration.
 - **What fills the near-term site.** Its shape is settled — Hextra's demonstration site — and its
   content is not. What the documentation says, whether there is a blog, what a showcase would
   show, and which of them the projection feeds are all open. This is the nearest-term question the
@@ -529,3 +538,4 @@ Authored by Scott Bellware on Sun Aug 2 2026 at 11:45:04 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:16:25 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:19:26 AM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 12:22:39 AM PT
+Changed by Scott Bellware on Mon Aug 3 2026 at 12:37:27 PM PT

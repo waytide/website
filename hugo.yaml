@@ -1,5 +1,4 @@
-# Provisional until the site's home is decided — see the design's deferred questions.
-baseURL: https://waytide.github.io/website/
+baseURL: https://waytide.ai/
 title: Waytide
 
 theme: hextra
