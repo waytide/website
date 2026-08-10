@@ -1,0 +1,1 @@
+# The hinge cycle example and the vocabulary hierarchy move out of the repository root into `reference-material/` — material the site will carry that is not yet a page, kept apart from `content/`, which Hugo publishes

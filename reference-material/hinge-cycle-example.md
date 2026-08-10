@@ -10,7 +10,7 @@ each hinge presented through the selection interface with its candidates written
 itself, the implementation shown before the loop moves on, and the version put to the engineer
 rather than decided by the agent.
 
-**This file sits at the repository root for now.** Its final place is not settled, and the
+**This file sits in `reference-material/` for now.** Its final place is not settled, and the
 content-areas aspiration records how an area becomes a page as still open.
 
 ---
@@ -272,3 +272,4 @@ The gem is built with `gem build upload.gemspec` and published with `gem push up
 
 Authored by Scott Bellware on Mon Aug 10 2026 at 12:08:15 PM PT
 Changed by Scott Bellware on Mon Aug 10 2026 at 1:18:41 PM PT
+Changed by Scott Bellware on Mon Aug 10 2026 at 1:37:18 PM PT
