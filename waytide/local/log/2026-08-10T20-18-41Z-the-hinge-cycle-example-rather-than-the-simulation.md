@@ -1,0 +1,1 @@
+# `hinge-cycle-example.md`, rather than `hinge-cycle-simulation.md` — the file's title becomes An Example Session with it, and the log entry written minutes earlier keeps the name it was written with, since a record states what was true when it was written

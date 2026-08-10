@@ -1,4 +1,4 @@
-# The Hinge Cycle — A Simulated Session
+# The Hinge Cycle — An Example Session
 
 A worked demonstration of Design By Efferent's loop, written as a session a reader can follow
 from the first request to a published gem. **It is a demonstration and not a record of work that
@@ -271,3 +271,4 @@ The gem is built with `gem build upload.gemspec` and published with `gem push up
 ---
 
 Authored by Scott Bellware on Mon Aug 10 2026 at 12:08:15 PM PT
+Changed by Scott Bellware on Mon Aug 10 2026 at 1:18:41 PM PT
