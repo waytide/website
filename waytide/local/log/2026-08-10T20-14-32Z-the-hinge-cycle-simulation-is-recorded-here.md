@@ -1,0 +1,1 @@
+# The hinge cycle simulation is recorded in this project, at the repository root for now — it is a worked demonstration of Design By Efferent's loop rather than a record of work that happened, so it belongs in no record directory, and where it finally sits waits on the content-areas aspiration's open question of how an area becomes a page
