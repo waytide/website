@@ -1,5 +1,7 @@
 # Feature — Hugo and Hextra Setup
 
+**Tags:** [feature]
+
 ## Intent
 
 Stand up static site generation for the Waytide website with **Hugo** and the **Hextra** theme,

@@ -1,5 +1,8 @@
 # Settle how this project authenticates to GitHub, and whether SSH is the right answer
 
+**State:** Open
+**Tags:** [deferred]
+
 Pushing `.github/workflows/hugo.yaml` was refused: GitHub requires the **`workflow`** scope to
 create or update anything under `.github/workflows/`, and the token in use carries only `repo`,
 `delete:packages`, and `write:packages`. The remote was switched to SSH, which pushes fine. That
