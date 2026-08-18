@@ -1,8 +1,9 @@
 # A design can fall behind its own decision log, and nothing detects it
 
-**Status:** a working hypothesis under discovery, not binding. It would be promoted to a rule if
-a check can be stated that a person or an agent could actually apply — the gap is easy to
-describe and, so far, has no proposed detection.
+- **State:** Open
+- **Tags:** [observation]
+
+**Why this state:** a working hypothesis under discovery, not binding. It would be promoted to a rule if a check can be stated that a person or an agent could actually apply — the gap is easy to describe and, so far, has no proposed detection.
 
 A decision is made, a log entry records it, and the **design the decision governs is never
 updated**. The log and the design then disagree, and nothing in the system notices: the log is
@@ -61,3 +62,4 @@ an instruction to be careful.
 ---
 
 Authored by Scott Bellware on Mon Aug 3 2026 at 2:29:53 PM PT
+Changed by Scott Bellware on Mon Aug 17 2026 at 11:52:07 PM PT

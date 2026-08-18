@@ -1,5 +1,8 @@
 # The Site's Content Areas — Aspiration
 
+- **State:** Active
+- **Tags:** [aspiration]
+
 ## Summary
 
 A **running list of the content areas the site carries** — the bodies of material it has to
@@ -90,3 +93,4 @@ disposition with something a reader can go and check.
 
 Authored by Scott Bellware on Mon Aug 3 2026 at 1:50:20 PM PT
 Changed by Scott Bellware on Wed Aug 5 2026 at 12:32:03 AM PT
+Changed by Scott Bellware on Mon Aug 17 2026 at 11:52:07 PM PT

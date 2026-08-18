@@ -1,5 +1,8 @@
 # Producing and Presenting Waytide's Self-Explanation — Aspiration
 
+- **State:** Active
+- **Tags:** [aspiration]
+
 ## Summary
 
 This design settles **how Waytide's self-explanation is produced and how it is presented** — the
@@ -606,3 +609,4 @@ Changed by Scott Bellware on Mon Aug 3 2026 at 1:52:59 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 1:57:24 PM PT
 Changed by Scott Bellware on Mon Aug 3 2026 at 2:01:00 PM PT
 Changed by Scott Bellware on Wed Aug 5 2026 at 12:32:03 AM PT
+Changed by Scott Bellware on Mon Aug 17 2026 at 11:52:07 PM PT
