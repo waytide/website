@@ -1,0 +1,1 @@
+# This project declares the content package set, deactivating design-by-efferent, testing, and tools/ruby-lang without uninstalling any of them — its product is prose and pages, and the five hinges are a design method for a unit of code
